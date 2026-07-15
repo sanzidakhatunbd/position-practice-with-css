@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 8px 15px;
+}
+
+ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+}
+
+.rr {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #ecf0f1;
+    cursor: pointer;
+    color: #000;
+    font-family: Arial;
+    transition: all 0.3s;
+}
+
+.rr:hover {
+    border: 1px solid #3498db;
+    color: #3498db;
+}
+
+.s {
+    background: #3498db;
+    color: #fff;
+}
+
+.s:hover {
+    background: transparent;
+    color: #3498db
+}
+
+.left {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin-left: 20px;
+    padding: 100px 130px;
+    font-family: Arial;
+    background-image: url(./images/Group.png), url(./images/square.png), url(./images/Vector.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top left, 30px 490px, bottom left;
+}
+
+.aa {
+    display: inline-block;
+    text-decoration: none;
+    background: #3498db;
+    color: #ffffff;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 0.3s;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.38);
+}
+
+.aa:hover {
+    background: transparent;
+    border: 1px solid #3498db;
+    color: #3498db;
+    box-shadow: none;
+}
+
+.right {
+    width: 650px;
+    height: 600px;
+    background-image: url(./images/Illustration.png), url(./images/1.png), url(./images/2.png), url(./images/3.png), url(./images/4.png), url(./images/5.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 50px 100px, 105px 230px, 185px 120px, 310px 45px, 470px 120px, 500px 240px;
+
+}
+
+.st {
+    display: flex;
+    margin: 0 30px;
+}
+
+.tri {
+    width: 220px;
+    height: 150px;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9B0BTYqyC1lQbouDPKIh07aniZNYM3pfQpA&s);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.shape {
+    width: 300px;
+    height: 280px;
+    clip-path: polygon(59% 60%, 100% 59%, 100% 100%, 36% 100%, 36% 83%);
+    background-image: url(./images/Group4359.png);
+    background-repeat: repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
